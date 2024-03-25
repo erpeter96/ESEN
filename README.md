@@ -15,9 +15,10 @@
    A procedure egy CURSOR-ba szedje össze az adott ORDER_NUMBER-hez tartozó összes line-t és egy ciklusban frissítsük a 4. feladatban megadott function használatával azokat.
    A program futása közben az output-ra írjuk ki a módosított order header_id-ját, valamint minden line esetében az ahhoz tartozó part_numbert (mtl_system_items_b-ben a segment1)
    valamint a hozzá tartozó description-t és eredeti valamint módosított árat.
+   A log file-ba írjuk be az érintett sorok line_id-ját valamint az eredeti és új árat.
    (Exception kezelés extra pontot jelent)
-7. Fordítsd be a package-et
-8. Csináljunk hozzá konkurens programot.
+8. Fordítsd be a package-et
+9. Csináljunk hozzá konkurens programot.
 
 Segítség a konkurens programhoz:
 ![image](https://github.com/erpeter96/ESEN/assets/127132338/1d5c2406-ca7b-4489-8ffc-7cbef75236b3)
