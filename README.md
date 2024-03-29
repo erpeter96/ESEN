@@ -19,6 +19,10 @@
    (Exception kezelés extra pontot jelent)
 8. Fordítsd be a package-et
 9. Csináljunk hozzá konkurens programot.
+    ![image](https://github.com/erpeter96/ESEN/assets/127132338/f5b0ba7a-c7ef-4a6b-a01c-2a18e38c143f)
+    ![image](https://github.com/erpeter96/ESEN/assets/127132338/c6652173-7611-44f7-b264-420a8d560391)
+
+
 
 Segítség a konkurens programhoz:
 ![image](https://github.com/erpeter96/ESEN/assets/127132338/252920a5-323d-400c-8ccd-350aa1a2e0e3)
