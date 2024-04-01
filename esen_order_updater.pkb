@@ -41,7 +41,6 @@ IS
          AND ol.flow_status_code NOT IN ('CLOSED', 'CANCELLED');
       --
       header           NUMBER;
-      get_sum          NUMBER;
       new_price        NUMBER := NULL;
    BEGIN
       SELECT oh.header_id
@@ -51,7 +50,6 @@ IS
       --
       fnd_file.put_line(fnd_file.OUTPUT, 'Entered order number is: ' || p_in_order_number);
       fnd_file.put_line(fnd_file.OUTPUT, 'header id: ' || header);
-      fnd_file.put_line(fnd_file.OUTPUT, 'The value of the order is: ' || get_sum);
       FOR v_rec IN c_orders(p_in_order_number)
       LOOP
          --
