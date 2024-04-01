@@ -57,9 +57,9 @@ IS
          --
          IF new_price IS NOT NULL
          THEN
-            --UPDATE perdos_oe_order_lines_all pool
-            --   SET pool.unit_selling_price = new_price
-            -- WHERE pool.line_id = v_rec.line_id;
+            UPDATE perdos_oe_order_lines_all pool
+               SET pool.unit_selling_price = new_price
+             WHERE pool.line_id = v_rec.line_id;
              --
              COMMIT;
          END IF;
