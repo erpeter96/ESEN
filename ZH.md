@@ -6,7 +6,7 @@
 4. Csinálj egy package-et (legyen pks és pkb file-od is. Az üres package is pontot ér ha befordul). (10 pont)
 5. A package tartalmazzon egy privát FUNCTIONT (a function nevének első 5 karaktere tartalmazza a neptunkódod), 
    amely 2 bemenő paraméter alapján (p_in_line_id és p_in_days) 
-   Az adott line-hoz tartozó schedule_arrival_date és ay ahhoz hozzáadott days-ből egy dátummal tér vissza.
+   Az adott line-hoz tartozó schedule_arrival_date és az ahhoz hozzáadott days-ből egy dátummal tér vissza.
    pl.:  schedule_arrival_date = 28-OCT-04 és napok = 1 akkor return = 29-OCT-04 (10 pont)
    (bármilyen exception kezelés extra pontot jelent) (5 pont extra) 
 6. Tartalmazzon a package egy PROCEDURE-t amely ezeket a paramétereket használja (a procedure nevének első 5 karaktere tartalmazza a neptunkódod):
