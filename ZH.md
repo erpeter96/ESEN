@@ -11,7 +11,7 @@
    (bármilyen exception kezelés extra pontot jelent) (5 pont extra) 
 6. Tartalmazzon a package egy PROCEDURE-t amely ezeket a paramétereket használja (a procedure nevének első 5 karaktere tartalmazza a neptunkódod):
 
-   PROCEDURE neptun_cut_order_selling_price(p_out_errbuff     OUT VARCHAR2,p_out_retcode     OUT NUMBER,p_in_order_number IN  NUMBER,p_in_days       IN  NUMBER)
+   PROCEDURE neptun_shift_schedule_arrival_date(p_out_errbuff     OUT VARCHAR2,p_out_retcode     OUT NUMBER,p_in_order_number IN  NUMBER,p_in_days       IN  NUMBER)
 
    A procedure egy CURSOR-ba szedje össze az adott ORDER_NUMBER-hez tartozó összes line-t és egy ciklusban frissítsük a 4. feladatban megadott function használatával azokat.
    A program futása közben az output-ra írjuk ki a módosított order header_id-ját, valamint minden line esetében az ahhoz tartozó part_numbert (mtl_system_items_b-ben a segment1)
